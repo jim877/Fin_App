@@ -270,6 +270,8 @@ function validateServiceDraft(draft: ServiceDraft): {
   parsed?: {
     date: string;
     user?: string;
+    event?: string;
+    eventId?: string;
     service: string;
     quantity: number;
     amount: number;
