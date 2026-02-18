@@ -1,0 +1,5 @@
+# Netlify build config – app lives in app/
+[build]
+  base     = "app"
+  command  = "npm run build"
+  publish  = "dist"
